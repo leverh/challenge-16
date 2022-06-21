@@ -1,0 +1,599 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.7rem 2.5rem 10rem 2.5rem;
+}
+
+header img {
+    width: 33%;
+}
+
+.btn-header {
+    background-color: transparent;
+    border: 1px solid hsl(321, 100%, 78%);
+    border-radius: 15px;
+    padding: 0.3rem 1.5rem;
+    text-align: center; 
+}
+
+.btn-header a {
+    text-decoration: none;
+    color: hsl(321, 100%, 78%);
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.btn-header:hover {
+    border: 1px solid hsla(321, 100%, 78%, 0.452);
+} 
+
+.btn-header a:hover {
+    color: hsla(321, 100%, 78%, 0.452);
+}
+
+.first-container {
+    margin: 1.7rem 2.5rem 13rem 2.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2.2rem;
+    color: hsl(192, 100%, 9%);
+}
+
+.first-container p {
+    font-size: 1.5rem;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: 5.2rem;
+}
+
+.btn-general {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    padding: 1rem 3.5rem;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.btn-general:hover {
+    background-color: hsla(322, 100%, 66%, 0.722);
+    cursor: pointer;
+}
+
+.btn-general a {
+    font-size: 1.3rem;
+    color: hsl(207, 100%, 98%);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.first-container img {
+    max-width: 90%;
+}
+
+
+
+/*COUNTERS SECTION*/
+
+.second-container {
+    margin: 1.7rem 3.5rem 10rem 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.counters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5;
+}
+
+.counters img {
+    max-width: 20%;
+    align-self: flex-start;
+}
+
+.counters b {
+    font-size: 6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.community {
+    align-self: flex-start;
+    font-size: 1.5rem;
+    color: hsl(196, 4%, 50%);
+    font-weight: 400;
+}
+
+.messages {
+    text-align: center;
+    font-size: 1.5rem;
+    color: hsl(196, 4%, 50%);
+    font-weight: 400;
+}
+
+
+/* MAIN CONTENT SECTION */
+
+.property {
+    position: relative;
+    margin-bottom: 13rem;
+}
+
+.upper-bg {
+    /*position: absolute;*/
+    /*top: -15%;*/
+    display: block;
+    min-width: 100%;
+}
+
+.upper-bg-desk {
+    display: none;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grow {
+    background-color: hsl(207, 100%, 98%);
+    padding-top: 7rem;
+}
+
+.bg-bottom-mbl {
+    min-width: 100%;
+}
+
+.bg-btm-desk {
+    display: none;
+}
+
+.property-img {
+    max-width: 65%;
+}
+
+figcaption {
+    margin: 1.7rem 2.5rem 13rem 2.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+figcaption h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+figcaption p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.users {
+    background-color: hsl(207, 100%, 98%);
+}
+
+.mbl-top-bg-two {
+    display: block;
+    min-width: 100%;
+}
+
+.desk-top-bg-two {
+    display: none;
+}
+
+.mbl-top-bg-two-2 {
+    display: block;
+    min-width: 100%;
+}
+
+.desk-top-bg-two-2 {
+    display: none;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3.5rem;
+    margin-bottom: 10rem;
+}
+
+h5 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* FOOTER */
+
+.log-btm {
+    filter: invert(12%) sepia(43%) saturate(1371%) hue-rotate(150deg) brightness(94%) contrast(103%);
+    filter: invert(49%) sepia(75%) saturate(1558%) hue-rotate(293deg) brightness(98%) contrast(109%);
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(192, 100%, 9%);
+}
+
+.foot-img-top {
+    display: block;
+    min-width: 100%;
+}
+
+.desk-foot-img-top {
+    display: none;
+}
+
+.newsletter {
+    align-self: flex-start;
+    margin: 4rem 2.5rem 3rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: hsl(207, 100%, 98%);
+}
+
+h6 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.newsletter p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    align-self: stretch;
+    justify-content: center;
+    border-radius: 8px;
+    padding-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.email:hover {
+    cursor: pointer;
+}
+
+.submit {
+    align-self: flex-end;
+    padding: 1.2rem 5rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    color: hsl(207, 100%, 98%);
+}
+
+.submit:hover {
+    background-color: hsla(322, 73%, 80%, 0.95);
+    cursor: pointer;
+}
+
+.legal {
+    margin: 4rem 2.5rem 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.legal img {
+    max-width: 55%;
+    color: white;
+}
+
+.legal p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5rem;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+    color: hsl(207, 100%, 98%);
+}
+
+.cnct-details {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.cnct-details img {
+    width: 5%;
+}
+
+.cnct-details p {
+    font-size: 1.5rem;
+}
+
+.social {
+    margin-left: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: hsl(207, 100%, 98%);
+    font-size: 3rem;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.credit {
+    padding: 3rem 2.5rem 3rem 2.5rem;
+    background-color: hsl(322, 100%, 66%);
+}
+
+.attribution { 
+    font-size: 1.3rem; 
+    text-align: center; 
+    color: hsl(207, 100%, 98%);
+}
+
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 600px) {
+
+    .upper-bg {
+        display: none;
+    }
+
+    .upper-bg-desk {
+        display: block;
+        overflow: hidden;
+    }
+
+    .bg-bottom-mbl {
+        display: none;
+    }
+
+    .bg-btm-desk {
+        display: block;
+        
+    }
+
+    .mbl-top-bg-two {
+        display: none;
+    }
+
+    .desk-top-bg-two {
+        display: block;
+        
+    }
+
+    .mbl-top-bg-two-2 {
+        display: none;
+    }
+
+    .desk-top-bg-two-2 {
+        display: block;
+        
+    }
+
+    .foot-img-top {
+        display: none;
+    }
+
+    .desk-foot-img-top {
+        display: block;
+        
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    header {
+        margin: 4rem 5rem 10rem 5rem;
+    }
+
+    header img {
+        max-width: 20%;
+    }
+
+    .first-container p {
+        margin: auto 15rem 3rem 15rem;
+    }
+
+    .btn-general {
+        padding: 1.5rem 7rem;
+    }
+
+    .second-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .grow, .flow, .users {
+        flex-direction: row-reverse;
+    }
+
+    .flow {
+        flex-direction: row;
+        margin-left: 4rem;
+    }
+
+    .property {
+        overflow: hidden;
+    }
+
+    .property-img {
+        max-width: 35%;
+        margin-right: 10rem;
+    }
+
+    figcaption {
+        margin-left: 4rem;
+        text-align: left;
+    }
+
+    figcaption h2, h3, h4 {
+        align-self: flex-start;
+    }
+
+    footer {
+        overflow: hidden;
+    }
+    
+    .end {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 2fr;
+    }
+
+    .newsletter {
+        grid-column: 2;
+        grid-row: 1;
+        margin-left: 10rem;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    h6 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .newsletter p {
+        max-width: 90%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .legal {
+        grid-column: 1;
+        grid-row: 1;
+        margin-top: 0;
+    }
+
+    .email {
+        align-self: flex-start;
+        padding-top: 1rem; 
+        padding-right: 6rem;
+        margin-bottom: 0;
+        border-radius: 5px;
+    }
+
+    .submit {
+        font-size: 1rem;
+        padding: 0.9rem 3.5rem;
+        border-radius: 5px;
+        color: hsl(207, 100%, 98%);
+    }
+
+    .social {
+        grid-column: 1;
+    }
+
+    .cnct-details img {
+        min-width: 7%;
+        height: auto;
+    }
+
+    .log-btm {
+        filter: invert(12%) sepia(43%) saturate(1371%) hue-rotate(150deg) brightness(94%) contrast(103%);
+        filter: invert(49%) sepia(75%) saturate(1558%) hue-rotate(293deg) brightness(98%) contrast(109%);
+    }
+
+    .attribution {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .newsletter {
+        margin-left: 30rem;
+        
+    }
+    
+    .newsletter p {
+        max-width: 70%;
+    }
+    
+    .email {
+        padding-right: 10rem;
+    }
+
+    .submit {
+        padding-right: 6rem;
+        padding-left: 6rem;
+        font-size: 1rem;
+    }
+}
