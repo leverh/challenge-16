@@ -578,6 +578,27 @@ form {
 
 @media screen and (min-width: 1000px) {
     
+    .upper-bg-desk {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .bg-btm-desk {
+        width: 100%;
+    }
+
+    .desk-top-bg-two {
+        width: 100%;
+    }
+
+    .desk-top-bg-two-2 {
+        width: 100%;
+    }
+
+    .desk-foot-img-top {
+        width: 100%;
+    }
+    
     .newsletter {
         margin-left: 30rem;
         
