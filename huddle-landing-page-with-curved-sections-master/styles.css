@@ -251,6 +251,7 @@ h5 {
 .log-btm {
     filter: invert(12%) sepia(43%) saturate(1371%) hue-rotate(150deg) brightness(94%) contrast(103%);
     filter: invert(49%) sepia(75%) saturate(1558%) hue-rotate(293deg) brightness(98%) contrast(109%);
+    
 }
 
 .end {
